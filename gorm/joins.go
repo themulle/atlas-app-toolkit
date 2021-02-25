@@ -3,7 +3,7 @@ package gorm
 import (
 	"context"
 	"fmt"
-	"github.com/jinzhu/gorm"
+	"gorm.io/gorm"
 	"reflect"
 	"strings"
 )

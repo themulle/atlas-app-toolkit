@@ -9,9 +9,9 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/protoc-gen-go/generator"
-	jgorm "github.com/jinzhu/gorm"
-	"github.com/jinzhu/gorm/dialects/postgres"
 	"github.com/jinzhu/inflection"
+	jgorm "gorm.io/gorm"
+	"gorm.io/gorm/dialects/postgres"
 
 	"time"
 

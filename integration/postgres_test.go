@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jinzhu/gorm"
-	_ "github.com/jinzhu/gorm/dialects/postgres"
+	"gorm.io/gorm"
+	_ "gorm.io/gorm/dialects/postgres"
 )
 
 // buildDB creates a new test Postgres database and halts the test if anything

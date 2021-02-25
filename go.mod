@@ -1,4 +1,4 @@
-module github.com/infobloxopen/atlas-app-toolkit
+module github.com/themulle/atlas-app-toolkit
 
 go 1.14
 
@@ -10,7 +10,7 @@ require (
 	github.com/google/uuid v1.2.0
 	github.com/grpc-ecosystem/go-grpc-middleware v1.2.2
 	github.com/grpc-ecosystem/grpc-gateway v1.14.6
-	github.com/jinzhu/gorm v1.9.16
+	gorm.io/gorm v1.20.12
 	github.com/jinzhu/inflection v1.0.0
 	github.com/lib/pq v1.3.1-0.20200116171513-9eb3fc897d6f
 	github.com/sirupsen/logrus v1.8.0

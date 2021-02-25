@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/jinzhu/gorm"
+	"gorm.io/gorm"
 
 	"github.com/infobloxopen/atlas-app-toolkit/query"
 )
